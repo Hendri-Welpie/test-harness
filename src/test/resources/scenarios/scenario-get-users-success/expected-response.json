@@ -1,0 +1,18 @@
+{
+  "type": "HTTP_EXPECTED_RESPONSE",
+  "httpExpected": {
+    "statusCode": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "users": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "email": "john.doe@example.com"
+        }
+      ]
+    }
+  }
+}

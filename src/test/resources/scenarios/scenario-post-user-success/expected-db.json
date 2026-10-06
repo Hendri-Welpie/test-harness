@@ -1,0 +1,15 @@
+{
+  "type": "DB_EXPECTED",
+  "dbExpected": {
+    "query": "SELECT * FROM users",
+    "ignoreFields": ["created_at"],
+    "rows": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "created_at": "ignored"
+      }
+    ]
+  }
+}

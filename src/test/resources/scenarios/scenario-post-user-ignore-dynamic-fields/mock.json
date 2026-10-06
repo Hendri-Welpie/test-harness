@@ -1,0 +1,19 @@
+{
+  "type": "HTTP_MOCK",
+  "mock": {
+    "request": {
+      "method": "POST",
+      "url": "/api/v1/users",
+      "ignoreFields": ["/name"],
+      "body": {
+        "name": "whatever",
+        "email": "jane.doe@example.com",
+        "password": "${json-unit.ignore}"
+      }
+    },
+    "response": {
+      "statusCode": 201,
+      "body": { "status": "REGISTERED" }
+    }
+  }
+}

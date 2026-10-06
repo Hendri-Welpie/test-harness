@@ -1,0 +1,10 @@
+{
+  "type": "HTTP_REQUEST",
+  "httpRequest": {
+    "method": "GET",
+    "url": "/api/v1/users/12345",
+    "headers": {
+      "Accept": "application/json"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "HTTP_EXPECTED_RESPONSE",
+  "httpExpected": {
+    "statusCode": 502,
+    "ignoreFields": ["/timestamp"],
+    "body": {
+      "error": "Downstream service error",
+      "timestamp": "ignored"
+    }
+  }
+}

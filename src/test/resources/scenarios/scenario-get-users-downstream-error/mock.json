@@ -1,0 +1,11 @@
+{
+  "type": "HTTP_MOCK",
+  "mock": {
+    "request": { "method": "GET", "url": "/api/v1/users" },
+    "response": {
+      "statusCode": 500,
+      "headers": { "Content-Type": "application/json" },
+      "body": { "error": "Internal failure" }
+    }
+  }
+}

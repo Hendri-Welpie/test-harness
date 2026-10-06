@@ -1,0 +1,9 @@
+{
+  "type": "DB_EXPECTED",
+  "dbExpected": {
+    "query": "SELECT name, email FROM users ORDER BY id",
+    "rows": [
+      { "name": "Alice", "email": "alice@example.com" }
+    ]
+  }
+}

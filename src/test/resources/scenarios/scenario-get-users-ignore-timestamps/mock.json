@@ -1,0 +1,15 @@
+{
+  "type": "HTTP_MOCK",
+  "mock": {
+    "request": { "method": "GET", "url": "/api/v1/users" },
+    "response": {
+      "statusCode": 200,
+      "body": {
+        "users": [
+          { "id": 1, "name": "Alice", "email": "alice@example.com", "createdAt": "2024-01-01T10:00:00Z" },
+          { "id": 2, "name": "Bob", "email": "bob@example.com", "createdAt": "2024-02-02T11:30:00Z" }
+        ]
+      }
+    }
+  }
+}

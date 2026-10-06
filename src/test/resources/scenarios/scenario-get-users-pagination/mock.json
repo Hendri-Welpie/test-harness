@@ -1,0 +1,20 @@
+{
+  "type": "HTTP_MOCK",
+  "mock": {
+    "request": {
+      "method": "GET",
+      "url": "/api/v1/users",
+      "params": { "page": "2", "limit": "2" }
+    },
+    "response": {
+      "statusCode": 200,
+      "headers": { "Content-Type": "application/json" },
+      "body": {
+        "users": [
+          { "id": 3, "name": "Carol", "email": "carol@example.com" },
+          { "id": 4, "name": "Dave", "email": "dave@example.com" }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "HTTP_EXPECTED_RESPONSE",
+  "httpExpected": {
+    "statusCode": 200,
+    "body": { "users": [] }
+  }
+}

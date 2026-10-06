@@ -1,0 +1,13 @@
+{
+  "type": "HTTP_EXPECTED_RESPONSE",
+  "httpExpected": {
+    "statusCode": 201,
+    "ignoreFields": ["/id", "/createdAt"],
+    "body": {
+      "id": 0,
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "createdAt": "ignored"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "HTTP_MOCK",
+  "mock": {
+    "request": {
+      "method": "POST",
+      "url": "/api/v1/users",
+      "headers": {
+        "Accept": "application/json"
+      },
+      "body": {
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "password": "password123"
+      }
+    },
+    "response": {
+      "statusCode": 201,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "status": "REGISTERED"
+      }
+    }
+  }
+}

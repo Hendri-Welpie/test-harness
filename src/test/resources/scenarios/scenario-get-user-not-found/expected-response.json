@@ -1,0 +1,14 @@
+{
+  "type": "HTTP_EXPECTED_RESPONSE",
+  "httpExpected": {
+    "statusCode": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "ignoreFields": ["/timestamp"],
+    "body": {
+      "error": "User not found",
+      "timestamp": "ignored"
+    }
+  }
+}

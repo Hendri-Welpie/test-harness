@@ -1,0 +1,14 @@
+{
+  "type": "HTTP_MOCK",
+  "mock": {
+    "request": {
+      "method": "POST",
+      "url": "/api/v1/users",
+      "body": { "email": "alice@example.com" }
+    },
+    "response": {
+      "statusCode": 201,
+      "body": { "status": "REGISTERED" }
+    }
+  }
+}

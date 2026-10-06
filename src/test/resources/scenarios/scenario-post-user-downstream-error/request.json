@@ -1,0 +1,9 @@
+{
+  "type": "HTTP_REQUEST",
+  "httpRequest": {
+    "method": "POST",
+    "url": "/api/v1/users",
+    "headers": { "Content-Type": "application/json" },
+    "body": { "name": "Eve", "email": "eve@example.com", "password": "secret" }
+  }
+}

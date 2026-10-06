@@ -1,0 +1,13 @@
+{
+  "type": "HTTP_EXPECTED_RESPONSE",
+  "httpExpected": {
+    "statusCode": 200,
+    "ignoreFields": ["/users/*/createdAt"],
+    "body": {
+      "users": [
+        { "id": 1, "name": "Alice", "email": "alice@example.com" },
+        { "id": 2, "name": "Bob", "email": "bob@example.com" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: test-harness
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/application}
+    username: ${DB_USERNAME:application}
+    password: ${DB_PASSWORD:application}
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.yaml
+
+downstream:
+  base-url: ${DOWNSTREAM_URL:http://localhost:9090}

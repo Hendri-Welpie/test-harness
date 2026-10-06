@@ -1,0 +1,12 @@
+{
+  "type": "HTTP_EXPECTED_RESPONSE",
+  "httpExpected": {
+    "statusCode": 200,
+    "body": {
+      "users": [
+        { "id": 3, "name": "Carol", "email": "carol@example.com" },
+        { "id": 4, "name": "Dave", "email": "dave@example.com" }
+      ]
+    }
+  }
+}

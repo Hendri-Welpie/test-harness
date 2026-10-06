@@ -1,0 +1,10 @@
+{
+  "type": "HTTP_MOCK",
+  "mock": {
+    "request": { "method": "POST", "url": "/api/v1/users" },
+    "response": {
+      "statusCode": 500,
+      "body": { "error": "Internal failure" }
+    }
+  }
+}

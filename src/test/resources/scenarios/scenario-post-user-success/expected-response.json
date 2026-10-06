@@ -1,0 +1,16 @@
+{
+  "type": "HTTP_EXPECTED_RESPONSE",
+  "httpExpected": {
+    "statusCode": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "ignoreFields": ["/createdAt"],
+    "body": {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "createdAt": "ignored"
+    }
+  }
+}

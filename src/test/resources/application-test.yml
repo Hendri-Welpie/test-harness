@@ -1,0 +1,6 @@
+harness:
+  downstream-url: http://localhost:9999
+
+# Datasource is supplied by the Testcontainers @ServiceConnection.
+downstream:
+  base-url: ${harness.downstream-url}

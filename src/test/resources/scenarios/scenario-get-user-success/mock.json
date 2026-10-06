@@ -1,0 +1,15 @@
+{
+  "type": "HTTP_MOCK",
+  "mock": {
+    "request": {
+      "method": "GET",
+      "url": "/api/v1/users/42",
+      "headers": { "Accept": "application/json" }
+    },
+    "response": {
+      "statusCode": 200,
+      "headers": { "Content-Type": "application/json" },
+      "body": { "id": 42, "name": "Jane Roe", "email": "jane.roe@example.com" }
+    }
+  }
+}

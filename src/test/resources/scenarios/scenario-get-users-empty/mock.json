@@ -1,0 +1,11 @@
+{
+  "type": "HTTP_MOCK",
+  "mock": {
+    "request": { "method": "GET", "url": "/api/v1/users" },
+    "response": {
+      "statusCode": 200,
+      "headers": { "Content-Type": "application/json" },
+      "body": { "users": [] }
+    }
+  }
+}

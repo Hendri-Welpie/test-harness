@@ -1,0 +1,21 @@
+{
+  "type": "HTTP_MOCK",
+  "mock": {
+    "request": {
+      "method": "GET",
+      "url": "/api/v1/users/12345",
+      "headers": {
+        "Accept": "application/json"
+      }
+    },
+    "response": {
+      "statusCode": 404,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "error": "User not found"
+      }
+    }
+  }
+}
